@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #302e2e;
+    background-color: #ffd8a7;
+}
+/* Style for the current weather section */
+#current-weather {
+    background-color: #fc7f59;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#current-city {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#current-icon {
+    width: 100px;
+    height: 100px;
+}
+
+#current-temp,
+#current-feelslike,
+#current-wind,
+#current-humid {
+    font-size: 18px;
+}
+
+/* Style for the forecast cards */
+.card {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+/* Style for previous city buttons */
+.cityBtn {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.cityBtn:hover {
+    background-color: #219651;
+}
+
+/* Style for the clear button */
+#clear-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#clear-btn:hover {
+    background-color: #c0392b;
+}
+/* Style for the search form */
+form {
+    margin-top: 10px;
+}
+
+/* Style for the search button */
+#search-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#search-btn:hover {
+    background-color: #218838;
+}
+
+/* Style for the "How's the Weather Looking?" card */
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the "Previous Cities" card */
+.card.border-0 {
+    background-color: #f8f9fa;
+    box-shadow: none;
+}
+
+/* Style for the "Clear History" button */
+#clear-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#clear-btn:hover {
+    background-color: #c82333;
+}
+
+/* Style for the 5-Day Forecast section */
+#forecast-container {
+    margin-top: 20px;
+}
+
+/* Style for individual forecast cards */
+.card.bg-dark {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
+}
+
+/* Style for the 5-Day Forecast section title */
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+}
+
+/* Style for the navbar */
+.navbar {
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the page body */
+.body {
+    background-color: #f0f0f0;
+}
+
+/* Style for the "How's the Weather Looking?" card heading */
+.text-info {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Style for the "Previous Cities" heading */
+.text-dark {
+    font-size: 20px;
+    font-weight: bold;
+}
